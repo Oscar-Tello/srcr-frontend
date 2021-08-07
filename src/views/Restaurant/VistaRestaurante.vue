@@ -1,4 +1,40 @@
 <template>
+<v-app>
+          <v-app-bar
+      app
+      color="#0BB375"
+      dark
+    >
+      <div class="d-flex align-center">
+        <v-img
+          alt="Vuetify Logo"
+          class="shrink mr-2"
+          contain
+          src="@/assets/dish.png"
+          transition="scale-transition"
+          width="40"
+        />
+      </div> 
+      
+      <v-btn icon style="margin-right:60px; margin-left:70px; " href="#/platillos">
+        <v-icon style="margin-right:5px;">mdi-food</v-icon> Platillos
+      </v-btn>
+      <v-btn icon  style="margin-right:50px; margin-left:20px;">
+        <v-icon style="margin-right:5px;">mdi-wrench</v-icon> Mi cuenta
+      </v-btn>
+     
+      <v-spacer></v-spacer>
+       
+      <v-btn
+        href="#/login"
+        text
+      >
+        <span class="mr-2">Cerrar sesión</span>
+        <v-icon>mdi-open-in-new</v-icon>
+      </v-btn>
+    </v-app-bar>
+
+
   <div class="px-4">
     <br />
     <br />
@@ -17,7 +53,7 @@
         <!-- COLUMNA PARA EL BUSCADOR -->
 
         <b-col cols="12" md="12" lg="3" xl="3" align-self="end" class="mt-lg-0 mt-4">
-          <b-button href="#/restaurantes/agregar" variant="primary" block>
+          <b-button href="#/restaurantes/agregar" style="color:red;" block>
             Agregar 
           </b-button>
         </b-col>
@@ -90,7 +126,7 @@
                         <!-- BOTON SUPERIOR PARA CERRAR EL POPOVER -->
                         <span class="d-inline-block">&times;</span>
                       </b-button>
-                      <strong>Eliminar asociación</strong>
+                      <strong>Eliminar platillo</strong>
                     </template>
                   </div>
 
@@ -98,7 +134,7 @@
                     <!-- SECCION PARA EL CUERPO DEL POPOVER -->
                     <b-alert variant="" show class="small text-center">
                       <strong
-                        >¿Desea eliminar la asociacion
+                        >¿Desea eliminar el platillo
                         ?</strong
                       ><br />
                     </b-alert>
@@ -192,7 +228,7 @@
                         <!-- BOTON SUPERIOR PARA CERRAR EL POPOVER -->
                         <span class="d-inline-block">&times;</span>
                       </b-button>
-                      <strong>Eliminar asociación</strong>
+                      <strong>Eliminar platillo</strong>
                     </template>
                   </div>
 
@@ -295,7 +331,7 @@
                         <!-- BOTON SUPERIOR PARA CERRAR EL POPOVER -->
                         <span class="d-inline-block">&times;</span>
                       </b-button>
-                      <strong>Eliminar asociación</strong>
+                      <strong>Eliminar platillo</strong>
                     </template>
                   </div>
 
@@ -342,6 +378,7 @@
       </b-jumbotron>
     </b-container>
   </div>
+</v-app>
 </template>
 
 <script>

@@ -21,18 +21,14 @@
                                 <div class="contrasena">
                                    <center> 
                                         <h3>Contraseña</h3><br>
-                                       <v-text-field solo class="txt"></v-text-field>
+                                       <v-text-field :type="show2 ? 'text' : 'password'"  solo class="txt"></v-text-field>
                                        </center>
                                 </div>
                                 <div class="boton">
                                     <center> 
-                                    <v-btn depressed dark color="#449E73"> Ingresar                                     
+                                    <v-btn depressed dark color="#449E73" @click="ir()"> Ingresar                                     
                                     </v-btn>
                                     </center> 
-                                </div>
-                                    <div class="registro"> <center><br><br><br>
-                                    <h3>¿Eres nuevo?</h3><br>
-                                    <a><h3>Registrate aqui</h3></a></center>
                                 </div>
                                 </v-card>
 
@@ -44,6 +40,18 @@
         </container>
     </div>
 </template>
+<script lang="ts">
+import Vue from 'vue'
+export default Vue.extend({
+    methods:{
+
+        ir(){
+            window.location = '#/platillos';
+            
+        }
+    }
+})
+</script>
 <style scoped>
 
 

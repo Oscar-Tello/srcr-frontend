@@ -47,7 +47,7 @@
         class="shadow-lg p-5 mb-5 bg-white rounded"
       >
         <!-- SECCION PARA EL CUERPO DEL FORMULARIO -->
-        <h2 class="fuente_texto text-center">Datos del restaurante</h2>
+        <h2 class="fuente_texto text-center">Agregar restaurante</h2>
         <hr class="separador mt-3" />
 
         <b-row align-h="around">
@@ -64,7 +64,7 @@
                   id="input-1"
                   
                   class="caja_texto"
-                  placeholder="Flor catorce"
+                  placeholder="Ingrese el nombre del restaurante"
                 ></b-form-input>
               </b-form-group>
             </b-form>
@@ -82,7 +82,7 @@
                   id="input-2"
                   
                   class="caja_texto"
-                  placeholder="8:00"
+                  placeholder="Hora inicial"
                 ></b-form-input>
                 
               </b-form-group>
@@ -100,7 +100,7 @@
                   id="input-2"
                   
                   class="caja_texto"
-                  placeholder="17:00"
+                  placeholder="Hora final"
                 ></b-form-input>
                 
               </b-form-group>
@@ -118,7 +118,7 @@
                   id="input-2"
                   
                   class="caja_texto"
-                  placeholder="228128323"
+                  placeholder="Ingrese el telefono del restaurante"
                 ></b-form-input>
                 
               </b-form-group>
@@ -134,13 +134,13 @@
                   id="input-2"
                   
                   class="caja_texto"
-                  placeholder="19.52757718"
+                  placeholder="Ingrese latitud"
                 ></b-form-input>
                                 <b-form-input
                   id="input-2"
                   
                   class="caja_texto"
-                  placeholder="-96-94589714"
+                  placeholder="Ingrese longitud"
                 ></b-form-input>
                 
               </b-form-group>
@@ -185,7 +185,7 @@
                   id="input-2"
                   
                   class="caja_texto"
-                  placeholder="Centro"
+                  placeholder="Ingrese la colonia"
                 ></b-form-input>
               </b-form-group>
             </b-form>
@@ -202,7 +202,7 @@
                   id="input-2"
                   
                   class="caja_texto"
-                  placeholder="91000"
+                  placeholder="Ingrese el codigo postal"
                 ></b-form-input>
               </b-form-group>
             </b-form>
@@ -223,7 +223,7 @@
                   id="input-2"
                   
                   class="caja_texto"
-                  placeholder="flor_14"
+                  placeholder="Ingrese un nombre de usuario"
                 ></b-form-input>
               </b-form-group>
             </b-form>
@@ -233,7 +233,7 @@
             <b-form>
               <b-form-group
                 class="text-start fuente_texto"
-                label="Nueva contraseña:"
+                label="Contraseña:"
                 label-for="input-2"
               >
                 <b-form-input

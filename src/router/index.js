@@ -32,7 +32,7 @@ const routes = [
     component: () => import('../views/Restaurant/VistaRestaurante.vue')
   },
   {
-    path: '/restaurantes/agregar',
+    path: '/restaurantes/cuenta',
     name: 'AgregarRestaurante',
     component: () => import('../views/Restaurant/AgregarRestaurante.vue')
   },
